@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration
 {
-
+/*
     //When this method returns the DataSource object, Spring looks for it and sees if one exists in the Spring context.
     //If one does, it will replace it with the one that it found.
     //@Bean is used so Spring knows that this method is a Spring Bean.
@@ -30,5 +30,5 @@ public class PersistenceConfiguration
         System.out.println("My custom datasource bean has been initialized and set.");
 
         return builder.build();
-    }
+    }*/
 }
